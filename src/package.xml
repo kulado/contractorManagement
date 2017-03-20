@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>LightningSharing</members>
+        <members>TestLightningSharing</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>LightningErrorHandler</members>
+        <members>LightningSharing</members>
+        <members>LightningSharingAction</members>
+        <members>handleCallbackError</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CommunityTemplateDefinition</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CommunityThemeDefinition</name>
+    </types>
+    <types>
+        <members>Contractor_Management</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Applicant__c</members>
+        <members>Charge__c</members>
+        <members>Contractor_Request__c</members>
+        <members>PO__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Applicant__c-Applicant Layout</members>
+        <members>Charge__c-Charge Layout</members>
+        <members>Contact-Contractor Layout</members>
+        <members>Contractor_Request__c-Contractor Request Layout</members>
+        <members>Contractor_Request__c-Vendor Contractor Request</members>
+        <members>PO__c-PO Layout</members>
+        <members>PO__c-Vendor PO</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Vendor</members>
+        <members>vendors Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Contractor_Request__c.New_Applicant</members>
+        <members>Contractor_Request__c.Sharing</members>
+        <members>PO__c.Sharing</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Contractor_Management_Reports</members>
+        <members>Contractor_Management_Reports/Charges_by_Company</members>
+        <members>Contractor_Management_Reports/Contractor_Scores</members>
+        <members>Contractor_Management_Reports/PO_Spending</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>siteAsset_3169d435c3c047d0aa241cca3fb62188</members>
+        <members>siteAsset_e614583459e54ddba93b53af42bb22f8</members>
+        <name>StaticResource</name>
+    </types>
+    <version>38.0</version>
+</Package>
