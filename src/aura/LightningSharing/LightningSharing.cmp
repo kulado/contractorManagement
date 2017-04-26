@@ -24,8 +24,8 @@ TODO: navigate to record if clicking on user/group from existing
 
 
 	<div class="slds-m-around--large">
-		<lightning:tabset >
-			<lightning:tab >
+		<lightning:tabset>
+			<lightning:tab>
 				<aura:set attribute="label">View/Edit Current Permissions</aura:set>
 				<div class="sls-p-around--medium">
 					<table class="slds-table slds-table--bordered slds-no-row-hover slds-table--cell-buffer">
@@ -84,7 +84,7 @@ TODO: navigate to record if clicking on user/group from existing
 					</table>
 				</div>
 			</lightning:tab>
-			<lightning:tab >
+			<lightning:tab>
 				<aura:set attribute="label">Add New Permission</aura:set>
 
 				<lightning:layout class="slds-box slds-theme--shade">
